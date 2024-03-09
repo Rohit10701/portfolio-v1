@@ -41,7 +41,7 @@ export default function Home() {
           {colArray.map((_, col) => (
             <Square
               key={col}
-              bgColor={(Math.floor(Math.random() * 100) + 1) as ShadeKey}
+              bgColor={(Math.floor(Math.random() * 11) + 1) as ShadeKey}
             />
           ))}
         </div>
